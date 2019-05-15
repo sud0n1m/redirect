@@ -7,3 +7,9 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+
+[[redirects]]
+from = "/*"
+to = "https://alphacolin.com/:splat"
+status = 301
+force = true
